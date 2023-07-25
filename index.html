@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Blast Website</title>
+  <!-- tailwind and daisy UI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--  tailwind script tag -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'primary-color': '#F85559',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/826851c90c.js" crossorigin="anonymous"></script>
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- internal css -->
+
+  <style>
+    .font-lato {
+      font-family: 'Lato', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- header section -->
+  <header>
+
+    <!-- navbar -->
+    <nav class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 lg:py-5 my-10">
+
+
+
+      <div
+        class=" lg:bg-primary-color lg:flex lg:justify-evenly lg:items-center lg:w-full lg:h-28 lg:mx-0 lg:rounded-[600px] lg:visible">
+        <!-- Menu ITEMS -->
+
+        <!-- laptop items -->
+
+
+        <div class="navbar-center hidden lg:block lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="font-lato font-medium text-base font-medium text-white "><a>Home</a></li>
+            <li class="font-lato font-medium text-base font-medium text-white "><a>About Us</a></li>
+            <li class="font-lato font-medium text-base font-medium text-white "><a>Shop</a></li>
+            <li class="font-lato font-medium text-base font-medium text-white "><a>All Fruits</a></li>
+
+
+          </ul>
+        </div>
+        <!-- logo -->
+
+        <div>
+
+
+          <div class=" hidden lg:block">
+            <div class="flex justify-center items-center gap-1 border-5 border-black">
+              <img src="./images/logo.png" alt="">
+
+              <h1 class="text-3xl font-bold text-black lg:text-white font-lato">Fruit Burst</h1>
+
+
+            </div>
+
+
+            <div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <!-- search bar -->
+
+        <div class=" hidden lg:block">
+
+          <div class="relative  lg:pl-10 lg:w-80 md:w-40 rounded-full">
+            <input type="text" placeholder="Search Here"
+              class="input input-bordered w-full h-16 pr-16 rounded-full font-normal" />
+            <button class=" btn bg-white absolute top-2 right-2 rounded-full h-15 border-0"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </nav>
+
+
+
+    <!-- mobile navbar -->
+
+    <div class="flex justify-between items-center  w-full mx-auto lg:hidden">
+
+
+
+
+      <div class=" pl-3 md:pl-3 ">
+
+        <div class="flex  justify-center items-center gap-1">
+
+          <img src="./images/logo.png" alt="">
+          <h1 class="text-3xl font-bold text-black font-lato">Fruit Burst</h1>
+        </div>
+      </div>
+
+
+      <div class="dropdown p-0 m-0 w-[22%] md:w-[20%]  md:items-center md:justify-end">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-10 " fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0"
+          class="dropdown-content mt-3 z-[1] shadow bg-base-100 px-2 py-2 space-y-2 w-full border-1 border-black">
+
+
+          <li class="font-lato font-semibold text-sm font-medium text-black "><a>Home</a></li>
+          <li class="font-lato font-semibold text-sm font-medium text-black "><a>About Us</a></li>
+          <li class="font-lato font-semibold text-sm font-medium text-black "><a>Shop</a></li>
+          <li class="font-lato font-semibold text-sm font-medium text-black "><a>All Fruits</a></li>
+
+
+
+        </ul>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </header>
+
+  <!-- main section -->
+
+  <main>
+
+
+  </main>
+
+  <!-- footer section -->
+  <footer>
+
+
+
+  </footer>
+
+</body>
+
+</html>
